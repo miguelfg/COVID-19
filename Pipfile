@@ -6,10 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-<<<<<<< HEAD
 jupyter = "*"
-=======
->>>>>>> pyenv init
 
 [requires]
 python_version = "3.7"
