@@ -1,7 +1,11 @@
 {
     "_meta": {
         "hash": {
+<<<<<<< HEAD
             "sha256": "4af379d6a2c2be5b0be6d373111dd1376d3ae02ca533924c0f862c9b2423e719"
+=======
+            "sha256": "7e7ef69da7248742e869378f8421880cf8f0017f96d94d086813baa518a65489"
+>>>>>>> pyenv init
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,6 +19,7 @@
             }
         ]
     },
+<<<<<<< HEAD
     "default": {
         "attrs": {
             "hashes": [
@@ -406,5 +411,8 @@
             "version": "==3.1.0"
         }
     },
+=======
+    "default": {},
+>>>>>>> pyenv init
     "develop": {}
 }
