@@ -10,7 +10,10 @@ install_reqs:
 		. $(VIRTUALENV)bin/activate; pip install --no-deps -r requirements.txt
 		
 pull_upstream:
-		git rebase upstream/master
+		# git rebase upstream/master
+		git fetch upstream
+		git merge -s recursive -Xtheirs upstream/master
+		git push
 
 run_jupyter:
 		. $(VIRTUALENV)bin/activate; jupyter notebook
